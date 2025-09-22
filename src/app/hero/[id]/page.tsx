@@ -1,5 +1,5 @@
-import Carousel from "@/components/Carousel";
-import { IHeroData } from "@/interfaces/heroes";
+import Carousel from "../../../components/Carousel";
+import { IHeroData } from "../../../interfaces/heroes";
 
 interface IProps {
   params: {
