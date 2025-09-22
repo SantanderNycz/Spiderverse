@@ -94,13 +94,11 @@ Se deseja alterar a porta padrão na qual a aplicação tentará subir, você po
 Agora você está pronto para explorar o projeto em seu ambiente local!
 
 ## 📚 Tutorial do projeto
+
 [Live Criando um carrossel parallax do Aranhaverso.pdf](https://github.com/digitalinnovationone/spiderverse/files/12098974/Live.Criando.um.carrossel.parallax.do.Aranhaverso.67a818e32c2049d39d28ce4a185555c4.pdf)
 
 ## 👩‍💻 Autora
 
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
-    <p>Michele Queiroz Ambrosio</p>
-</p>
+<p>Michele Queiroz Ambrosio</p>
 <br/><br/>
 <p>
