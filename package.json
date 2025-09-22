@@ -6,6 +6,7 @@
   "dependencies": {
     "framer-motion": "^12.5.0",
     "motion": "^12.23.18",
-    "next": "^15.5.3"
+    "next": "^15.5.3",
+    "sass": "^1.93.1"
   }
 }
