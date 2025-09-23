@@ -3,12 +3,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-import HeroDetails from "../HeroDetails";
-import HeroPicture from "../HeroPicture";
+import HeroDetails from "@/components/HeroDetails";
+import HeroPicture from "@/components/HeroPicture";
 
 import styles from "./carousel.module.scss";
 
-import { IHeroData } from "../../interfaces/heroes";
+import { IHeroData } from "@/interfaces/heroes";
 
 enum enPosition {
   FRONT = 0,

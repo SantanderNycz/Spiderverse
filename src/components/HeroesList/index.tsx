@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-import HeroPicture from "../HeroPicture";
+import HeroPicture from "@/components/HeroPicture";
 
 import styles from "./heroesList.module.scss";
 
