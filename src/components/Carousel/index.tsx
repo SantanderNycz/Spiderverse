@@ -8,7 +8,7 @@ import HeroPicture from "../HeroPicture";
 
 import styles from "./carousel.module.scss";
 
-import { IHeroData } from "@/interfaces/heroes";
+import { IHeroData } from "../../interfaces/heroes";
 
 enum enPosition {
   FRONT = 0,

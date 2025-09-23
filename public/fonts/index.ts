@@ -5,3 +5,4 @@ export const spidermanFont = localFont({
   weight: "400",
   display: "swap",
 });
+ 
