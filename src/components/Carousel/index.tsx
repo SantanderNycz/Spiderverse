@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-import HeroDetails from "@/components/HeroDetails";
-import HeroPicture from "@/components/HeroPicture";
+import HeroDetails from "../HeroDetails";
+import HeroPicture from "../HeroPicture";
 
 import styles from "./carousel.module.scss";
 

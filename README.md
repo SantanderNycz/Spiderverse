@@ -2,14 +2,14 @@
 
 # Projeto Spider-Verse
 
-Este é o repositório do projeto Spider-Verse, desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me). O projeto consiste em uma aplicação interativa inspirada no universo do Homem-Aranha, usando as principais stacks front-end: React, Next.js 15.5.3, a biblioteca Framer Motion, Sass e TypeScript para criar um projeto visual incrível e de alta performance.
+Este é o repositório do projeto Spider-Verse, desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me). O projeto consiste em uma aplicação interativa inspirada no universo do Homem-Aranha, usando as principais stacks front-end: React, Next.js 13, a biblioteca Framer Motion, Sass e TypeScript para criar um projeto visual incrível e de alta performance.
 
 [Demonstração do projeto.webm](https://github.com/micheleambrosio/dio-spiderverse/assets/55519539/6ea3a467-ca98-4b3d-aa16-855db8a5fdb0)
 
 ## 💻 Tecnologias utilizadas no projeto
 
-- [React.js](https://reactjs.org) (v19)
-- [Next.js](https://nextjs.org) (v15)
+- [React.js](https://reactjs.org) (v18)
+- [Next.js](https://nextjs.org) (v13)
 - [TypeScript](https://www.typescriptlang.org) (v5)
 - [ESLint](https://eslint.org)
 - [Framer Motion](https://www.framer.com/api/motion)
@@ -94,11 +94,18 @@ Se deseja alterar a porta padrão na qual a aplicação tentará subir, você po
 Agora você está pronto para explorar o projeto em seu ambiente local!
 
 ## 📚 Tutorial do projeto
-
 [Live Criando um carrossel parallax do Aranhaverso.pdf](https://github.com/digitalinnovationone/spiderverse/files/12098974/Live.Criando.um.carrossel.parallax.do.Aranhaverso.67a818e32c2049d39d28ce4a185555c4.pdf)
 
 ## 👩‍💻 Autora
 
-<p>Michele Queiroz Ambrosio</p>
+<p>
+    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
+    <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
+    &nbsp&nbsp&nbsp<a href="http://instagram.com/programi_">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/michele_ambrosio">Twitch</a></p>
+</p>
 <br/><br/>
 <p>
+
+---
+
+⌨️ com ❤️ por [Michele Ambrosio](https://github.com/micheleambrosio) 😊

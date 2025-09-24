@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-import HeroPicture from "@/components/HeroPicture";
+import HeroPicture from "../HeroPicture";
 
 import styles from "./heroesList.module.scss";
 
-import { spidermanFont } from "../../../public/fonts";
+import { spidermanFont } from "@/fonts";
 import { IHeroData } from "@/interfaces/heroes";
 
 interface IProps {

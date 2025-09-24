@@ -1,15 +1,24 @@
+import Carousel from "@/components/Carousel";
+import { IHeroData } from "@/interfaces/heroes";
+
 interface IProps {
-  params: Promise<{ id: string }>
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+  params: {
+    id: string;
+  };
 }
 
-export default async function HeroPage({ params }: IProps) {
-  const { id } = await params
+async function getHeroesData(): Promise<{ data: IHeroData[] }> {
+  const res = await fetch(`${process.env.DOMAIN_ORIGIN}/api/heroes`);
 
-  return (
-    <div>
-      <h1>Hero Page - ID: {id}</h1>
-      {/* Seu conteúdo do herói aqui */}
-    </div>
-  )
+  if (!res.ok) {
+    throw new Error("Falha ao buscar heróis");
+  }
+
+  return res.json();
+}
+
+export default async function Hero({ params: { id } }: IProps) {
+  const res = await getHeroesData();
+
+  return <Carousel heroes={res.data} activeId={id} />;
 }
