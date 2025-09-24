@@ -8,17 +8,24 @@ interface IProps {
 }
 
 async function getHeroesData(): Promise<{ data: IHeroData[] }> {
-  const res = await fetch(`${process.env.DOMAIN_ORIGIN}/api/heroes`);
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_DOMAIN_ORIGIN}/api/heroes`,
+    {
+      cache: "no-store", // evita cache do Next
+    }
+  );
 
   if (!res.ok) {
+    console.error("Erro na resposta da API:", res.status, res.statusText);
     throw new Error("Falha ao buscar heróis");
   }
-
+  const data = await res.json();
+  console.log("API respondeu:", data); // 👈 veja o formato aqui
   return res.json();
 }
 
 export default async function Hero({ params: { id } }: IProps) {
-  const res = await getHeroesData();
+  const heroesData = await getHeroesData();
 
-  return <Carousel heroes={res.data} activeId={id} />;
+  return <Carousel heroes={heroesData.data} activeId={id} />;
 }
