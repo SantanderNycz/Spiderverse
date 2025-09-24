@@ -19,8 +19,7 @@ async function getHeroesData(): Promise<{ data: IHeroData[] }> {
     console.error("Erro na resposta da API:", res.status, res.statusText);
     throw new Error("Falha ao buscar heróis");
   }
-  const data = await res.json();
-  console.log("API respondeu:", data); // 👈 veja o formato aqui
+
   return res.json();
 }
 
